@@ -190,6 +190,7 @@ while True:
         if isCollision(player,enemy):
             player.hideturtle()
             enemy.hideturtle()
+            bullet.hideturtle()
             c=1
             break
     
