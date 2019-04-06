@@ -202,7 +202,7 @@ while True:
         game_over.speed(0)
         game_over.color("Yellow")
         game_over.penup()
-        game_over.setposition(-200,-20)
+        game_over.setposition(-190,-20)
         go="GAME OVER"
         game_over.write(go, False, align="left", font=("Algerian", 50, "normal"))
         game_over.hideturtle()
